@@ -5,7 +5,7 @@ import Note from "./Note";
 import Footer from "./footer";
 
 
-function createContent(notes) {
+function CreateContent(notes) {
     return (<Note 
         key={notes.key}
         title={notes.title}
@@ -16,7 +16,7 @@ function createContent(notes) {
 function App() {
     return (
         <div> <Header />
-            {notes.map(createContent)}
+            {notes.map(CreateContent)}
             <Footer />
         </div>
     );
