@@ -5,7 +5,11 @@ import Note from "./Note";
 import Footer from "./footer";
 import notes from "../notes";
 
-function createNote(new_item) {
+
+function App() {
+    return (
+        <div> <Header />
+            {notes.map(function createNote(new_item) {
     return (
         <Note
             key={new_item.key}
@@ -13,12 +17,8 @@ function createNote(new_item) {
             content={new_item.content}
         />
     );
-}
-
-function App() {
-    return (
-        <div> <Header />
-            {notes.map(createNote)}
+})} 
+            
             <Footer />
         </div>
     );
