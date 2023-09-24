@@ -9,7 +9,7 @@ const notes = [
       key: 2,
       title: "Loops",
       content:
-        "How to keep a programmer in the shower forever. Show him the shampoo bottle instructions: Lather. Rinse. Repeat."
+        "How to keep a programmer in the shower forever. Show him the shampoo bottle instructions: Lather. Rinse. Repeat. it's that easy "
     },
     {
       key: 3,
